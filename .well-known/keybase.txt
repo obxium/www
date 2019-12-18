@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/obxium
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://obxium.com
+  * I am obxium (https://keybase.io/obxium) on keybase.
+  * I have a public key ASA4DZ8eNM4aoq0SFiD6E77fhZKe4pSe7fGvm0VidQo05go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120380d9f1e34ce1aa2ad121620fa13bedf85929ee2949eedf1af9b4562750a34e60a",
+      "host": "keybase.io",
+      "kid": "0120380d9f1e34ce1aa2ad121620fa13bedf85929ee2949eedf1af9b4562750a34e60a",
+      "uid": "8983a3c24020dded090195266d97d619",
+      "username": "obxium"
+    },
+    "merkle_root": {
+      "ctime": 1520833293,
+      "hash": "d2cef83a55781b7f855d8772659fe08fd5f27beda2975a5ab7d363e312097b0bd030e90e7e7a0c8d46a4517785ff3da008ec9969b6aec375f75c2140af53a824",
+      "hash_meta": "c104adb164b1ea77a49f7520c4647750b902517ac2209fdc7169888a73531c85",
+      "seqno": 2222270
+    },
+    "service": {
+      "hostname": "obxium.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.45"
+  },
+  "ctime": 1520833367,
+  "expire_in": 504576000,
+  "prev": "9bcfe619ae906306a0cf6400e47038962a75613c1fc8b7b398ec0ec87f946a96",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgOA2fHjTOGqKtEhYg+hO+34WSnuKUnu3xr5tFYnUKNOYKp3BheWxvYWTFA0B7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMzgwZDlmMWUzNGNlMWFhMmFkMTIxNjIwZmExM2JlZGY4NTkyOWVlMjk0OWVlZGYxYWY5YjQ1NjI3NTBhMzRlNjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMzgwZDlmMWUzNGNlMWFhMmFkMTIxNjIwZmExM2JlZGY4NTkyOWVlMjk0OWVlZGYxYWY5YjQ1NjI3NTBhMzRlNjBhIiwidWlkIjoiODk4M2EzYzI0MDIwZGRlZDA5MDE5NTI2NmQ5N2Q2MTkiLCJ1c2VybmFtZSI6Im9ieGl1bSJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUyMDgzMzI5MywiaGFzaCI6ImQyY2VmODNhNTU3ODFiN2Y4NTVkODc3MjY1OWZlMDhmZDVmMjdiZWRhMjk3NWE1YWI3ZDM2M2UzMTIwOTdiMGJkMDMwZTkwZTdlN2EwYzhkNDZhNDUxNzc4NWZmM2RhMDA4ZWM5OTY5YjZhZWMzNzVmNzVjMjE0MGFmNTNhODI0IiwiaGFzaF9tZXRhIjoiYzEwNGFkYjE2NGIxZWE3N2E0OWY3NTIwYzQ2NDc3NTBiOTAyNTE3YWMyMjA5ZmRjNzE2OTg4OGE3MzUzMWM4NSIsInNlcW5vIjoyMjIyMjcwfSwic2VydmljZSI6eyJob3N0bmFtZSI6Im9ieGl1bS5jb20iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC40NSJ9LCJjdGltZSI6MTUyMDgzMzM2NywiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiI5YmNmZTYxOWFlOTA2MzA2YTBjZjY0MDBlNDcwMzg5NjJhNzU2MTNjMWZjOGI3YjM5OGVjMGVjODdmOTQ2YTk2Iiwic2Vxbm8iOjYsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAcPuUEWmeIiGGljPaF08k3wwJoBYm8APnLd/O/8Eqiy+sYVwDPpGMBYpigsanndJY0KdngB5Ijb1ppws88OwvD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKJ79KINHaqE9+8k/ARpf0SzzHkPVO92N913SYJEO3h5o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/obxium
+
+==================================================================
