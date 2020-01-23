@@ -32,30 +32,13 @@
 	</head>
 	<body>
 		<main>
-			<header class="container header">
-				<h1 class="title">obxium<sup>®</sup></h1>
-
-				<hr/>
-
-                <h2>🔜 the <em>obxium readymade token</em></h2>
-				<hr/>
-				<a href="https://superrare.co/artwork-v2/murakami-smiles-7305"><img src="/img/murakamismiles.png" alt="An illustration entitled murakami smiles showing a child like sketch of Takashi Murakami and his signature waving smile" title="Murakami Smiles, 2020, 1606 x 993 pixels"/></a>
-
-				<h3 class="subtitle">Fine Art for the Cryptoverse™</h3>
-			</header>
-
-			<section class="container">
-				<p>Ξ Acquire with ETH from:</p>
-					<ul>
-						<li><a href="https://superrare.co/obxium">SuperRare</a></li>
-						<li><a href="https://knownorigin.io/artists/0xf65DB13b5ee031CB0ebBa525eF21aa6C586681b3">KnownOrigin</a></li>
-						<li><a href="https://opensea.io/assets/obxium">OpenSea</a></li>
-					</ul>
-			</section>
-			<footer class="container">
-				<hr>
-				<p>&copy; 2020 ↹ <strong>atelier obxium</strong></p>
-			</footer>
+			<h1 contenteditable data-heading="obxium readymade token">obxium readymade token</h1>
 		</main>
+		<script type="text/javascript" charset="utf-8" async defer>
+			var h1 = document.querySelector("h1");
+			h1.addEventListener("input", function() {
+  				this.setAttribute("data-heading", this.innerText);
+			});
+		</script>
 	</body>
 </html>
