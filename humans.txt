@@ -1,0 +1,16 @@
+/* TEAM /*
+
+Your title: obxium        
+Site: https://obxium.com/contact/      
+Twitter: obxium
+							
+/* THANKS */
+							
+Name: name or url
+ 
+/* SITE */
+     
+Last update: 2020/11/15     
+Standards: HTML5, CSS3, JavaScript, web fonts     
+Components: Bootstrap, jQuery, Slick, Themify icons
+Software: vim
