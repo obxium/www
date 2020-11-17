@@ -6,7 +6,25 @@
     <description>Recent content in Art journal on obxium</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Nov 2020 14:07:21 +0600</lastBuildDate><atom:link href="https://obxium.com/art-journal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Nov 2020 08:15:21 +0600</lastBuildDate><atom:link href="https://obxium.com/art-journal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compact Signatures</title>
+      <link>https://obxium.com/art-journal/compact-signatures/</link>
+      <pubDate>Mon, 16 Nov 2020 08:15:21 +0600</pubDate>
+      
+      <guid>https://obxium.com/art-journal/compact-signatures/</guid>
+      <description>This is an idea for implementing a short-form unique identifier style string that is composed from a substring of the SHA 256 summary for your crypto art NFT media as part of an enhanced artist&amp;rsquo;s signature metadata.</description>
+    </item>
+    
+    <item>
+      <title>NFTs on Kusama</title>
+      <link>https://obxium.com/art-journal/nfts-on-kusama/</link>
+      <pubDate>Mon, 16 Nov 2020 07:11:21 +0600</pubDate>
+      
+      <guid>https://obxium.com/art-journal/nfts-on-kusama/</guid>
+      <description>Since announcing my release of art NFTs on Kusama, I have been getting some questions lately from other artists and those in the scene who are curious about Kusama.</description>
+    </item>
+    
     <item>
       <title>RMRK Kusama Art NFTs</title>
       <link>https://obxium.com/art-journal/rmrk-kusama-art-nft/</link>
