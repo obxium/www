@@ -5,7 +5,7 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="How the artwork &#39;blue&#39; was created.">
+  <meta name="description" content="How the artwork &#39;Blue&#39; was created.">
 
   <meta name="author" content="obxium">
 
@@ -32,7 +32,7 @@
   <meta property="og:image" content="https://obxium.com/images/blue.png" />
   
   <meta property="og:title" content="Blue" />
-<meta property="og:description" content="How the artwork &#39;blue&#39; was created." />
+<meta property="og:description" content="How the artwork &#39;Blue&#39; was created." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://obxium.com/art-journal/blue/" />
 <meta property="article:published_time" content="2020-11-20T08:14:21+06:00" />
@@ -97,7 +97,68 @@
       <div class="col-lg-8 mx-auto">
         <img src="https://obxium.com/images/blue.png" alt="Blue" class="img-fluid w-100 rounded mb-4">
         <h2 class="mb-4">Blue</h2>
-        <div class="content"><p><img src="/images/blue.png" alt="one blue pixel"></p>
+        <div class="content"><h2 id="this-is-a-brief-explanation-of-how-i-created-the-crypto-art-nft-blue">This is a brief explanation of how I created the crypto art NFT &ldquo;Blue&rdquo;</h2>
+<p><a href="https://superrare.co/artwork-v2/blue-13831">Blue</a> is my artistic answer in baited breath and with much imitating flattery to <a href="https://superrare.co/artwork-v2/red-12083">&ldquo;Red&rdquo;</a>, the &ldquo;original&rdquo; work by crypto creator <a href="https://superrare.co/pak">Murat Pak</a>.</p>
+<p>&ldquo;Red&rdquo; was minted at SuperRare on <a href="https://etherscan.io/tx/0x44452dfbb408c3561f0a4582589afa486413881b773fa82abe713a5f2a2b00ad">July 22, 2020</a>. It was acquired that same day by <a href="https://superrare.co/museumofcryptoart">Museum of Crypto Art</a> for Ξ 29.1262 or USD $7,154 at the time. It&rsquo;s a playful cause and effect piece that can appear differently based on its container&rsquo;s fluid image handling capabilities and presumably it is novel for a couple other characteristics explained later.</p>
+<p>Some websites will show it as its raw 1px by 1px image, while others, or other parts (this site included) will helpfully scale the image to better fit its container, which in turn is informed by screen width, for example. Standard CSS 3 stuff, really.</p>
+<p>The media chosen by the artist to represent their NFT is Portable Network Graphic (PNG) format, at 1 pixel square resolution, and red (#ff0000) in color. After examining the construction of &ldquo;Red&rdquo;, I built and minted a similar replica, &ldquo;Blue&rdquo; that is unsurprisingly, blue in color.</p>
+<h2 id="blue-compared-with-red">&ldquo;Blue&rdquo; compared with &ldquo;Red&rdquo;</h2>
+<p>Let&rsquo;s compare and contrast these two profoundly trivial exercises in PNG graphic construction which are now known as &ldquo;art&rdquo; and peek into the utter wizardry involved in creating such a technically masterful artwork, shall we?</p>
+<h3 id="red">&ldquo;Red&rdquo;</h3>
+<p>This is &ldquo;Red&rdquo; as it appears on SuperRare.</p>
+<p><img src="/images/Red-SuperRare.png" alt="Red on SuperRare"></p>
+<p>The artwork is currently owned by the <a href="https://superrare.co/moca">Museum of Crypto Art</a> (MOCA). Here is a screen shot of the PNG data associated with &ldquo;Red&rdquo; loaded into a hex editor.</p>
+<p><img src="/images/red-hex.png" alt="The artwork &lsquo;Red&rsquo; as seen in a hex editor"></p>
+<p>A few fun points of note about the media.</p>
+<ul>
+<li>It represents 1 red (#ff0000) pixel.</li>
+<li>The file size is 123 bytes.</li>
+<li>There is a fun text message appended to the end: &ldquo;<strong>This red pixel is all yours.  You paid the price.</strong>&rdquo;</li>
+</ul>
+<h3 id="blue">&ldquo;Blue&rdquo;</h3>
+<p>This is &ldquo;Blue&rdquo; as it appears on SuperRare.</p>
+<p><img src="/images/Blue-SuperRare.png" alt="Blue on SuperRare"></p>
+<p>and here is a screen shot of the PNG data associated with &ldquo;Blue&rdquo; loaded into a hex editor.</p>
+<p><img src="/images/blue-hex.png" alt="The artwork &lsquo;Red&rsquo; as seen in a hex editor"></p>
+<p>The media is a tongue-in-cheek satirical reproduction of that found in &ldquo;Red&rdquo;.</p>
+<ul>
+<li><img src="/images/blue.png" alt="the 1 blue pixel PNG that represents &lsquo;Blue&rsquo; the artwork"> ← the actual PNG media as an in-line image.</li>
+<li>It represents 1 blue (#0000ff) pixel.</li>
+<li>The file size is 123 bytes.</li>
+<li>The SHA 256 summary is a3c989c0b9dce41bd1c8c55c318a552c4fc8a739c1d7e287342ad8b849c10218.</li>
+<li>There is a fun text message appended to the end: &ldquo;<strong>This red pixel is all yours.  You paid too much.</strong>&rdquo;</li>
+</ul>
+<h2 id="how-to-create-such-masterpiece">How to create such masterpiece?</h2>
+<p>Simple, you need only a web browser and a hex editor.</p>
+<p><img src="/images/PNG-generation.png" alt="Generating the PNG is easy"></p>
+<ol>
+<li>Visit a pixel generation website, such as <a href="https://png-pixel.com">PNG Pixel</a></li>
+<li>Enter appropriate parameters for your 1px by 1px PNG</li>
+<li>Hit <strong>Download PNG</strong></li>
+</ol>
+<p>You now have a PNG container in the correct color; you are halfway there!</p>
+<p>The next thing you will notice as an astute observer of file sizes, is that this blue container is only 70 bytes in size! It&rsquo;s time to start applying PhD level hacking skills, and append your happy message inside of 53 bytes to arrive at 123 bytes total file size.</p>
+<p><img src="/images/hacking-the-png.png" alt="Screen shot of appending text to PNG"></p>
+<p>This step requires opening the PNG file in a hex editor application and simply typing in the phrase on the right at the end of the file (after the PNG container <code>IEND</code> and in this case the final <code>Ç</code> character), until you&rsquo;ve said your piece.</p>
+<p>Once you hit 123 bytes, simply save the file and you&rsquo;re off to a fancy gallery to make a tidy sum off a dank NFT.</p>
+<p>Or not.</p>
+<p>#thisisnotfinancialadvice 🤣</p>
+<h2 id="getting-social-now">Getting social now&hellip;</h2>
+<p><img src="/images/iambluepixel-twitter-account.png" alt="Screen shot of iambluepixel Twitter account"></p>
+<p>Each of these excellent artworks has its own Twitter account now. Unfortunately, as part of Twitter&rsquo;s &lsquo;anti-fake-verified-badge campaign&rsquo; one cannot have any of the blue shaped emojis in the name field, so I was unable to copy the other Twitter account in full.</p>
+<p>I feel like such a lesser, second rate red chip artist now (even though I created the cooler, blue chip piece with 100% more humor). 😩</p>
+<ul>
+<li><a href="https://twitter.com/iambluepixel">@iambluepixel</a></li>
+<li><a href="https://twitter.com/iamredpixel">@iamredpixel</a></li>
+</ul>
+<h2 id="what-next">What next?</h2>
+<p>Red. Green Blue. The colors traditionally associated with raster graphics&hellip;</p>
+<p>One of them is still unclaimed!</p>
+<p>Which innovative and pioneering master of the PNG spec will hack one out next?!</p>
+<p>Let&rsquo;s a start a 1 pixel crypto art webring!</p>
+<p>Special shout out to the wonderful artist <a href="https://twitter.com/hexeosis">Hexeosis</a> for purchasing &ldquo;Blue&rdquo; from me in a heated bidding war where he was able to even outbid himself multiple times and really make my day with the excitement!</p>
+<p>Peace,</p>
+<p>o</p>
 </div>
         
         
